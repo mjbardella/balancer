@@ -1,0 +1,29 @@
+I, [2023-10-25T23:33:45.036233 #17545]  INFO -- Kitchen: -----> Starting Test Kitchen (v3.5.0)
+E, [2023-10-25T23:33:45.039938 #17545] ERROR -- Kitchen: ------Exception-------
+E, [2023-10-25T23:33:45.040203 #17545] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2023-10-25T23:33:45.040262 #17545] ERROR -- Kitchen: Message: Kitchen YAML file /etc/ansible/roles/balancer/meta/kitchen.yml does not exist.
+E, [2023-10-25T23:33:45.040286 #17545] ERROR -- Kitchen: ----------------------
+E, [2023-10-25T23:33:45.040303 #17545] ERROR -- Kitchen: ------Backtrace-------
+E, [2023-10-25T23:33:45.040318 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2023-10-25T23:33:45.040335 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/config.rb:153:in `data'
+E, [2023-10-25T23:33:45.040349 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/config.rb:131:in `suites'
+E, [2023-10-25T23:33:45.040370 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/config.rb:183:in `filter_instances'
+E, [2023-10-25T23:33:45.040384 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/config.rb:142:in `build_instances'
+E, [2023-10-25T23:33:45.040399 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/config.rb:116:in `instances'
+E, [2023-10-25T23:33:45.040412 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:109:in `filtered_instances'
+E, [2023-10-25T23:33:45.040426 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:139:in `parse_subcommand'
+E, [2023-10-25T23:33:45.040441 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/command/action.rb:34:in `block in call'
+E, [2023-10-25T23:33:45.040454 #17545] ERROR -- Kitchen: /usr/lib/ruby/2.7.0/benchmark.rb:293:in `measure'
+E, [2023-10-25T23:33:45.040469 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/command/action.rb:33:in `call'
+E, [2023-10-25T23:33:45.040488 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2023-10-25T23:33:45.040502 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/cli.rb:198:in `block (2 levels) in <class:CLI>'
+E, [2023-10-25T23:33:45.040514 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/thor-1.3.0/lib/thor/command.rb:28:in `run'
+E, [2023-10-25T23:33:45.040527 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/thor-1.3.0/lib/thor/invocation.rb:127:in `invoke_command'
+E, [2023-10-25T23:33:45.040539 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/thor-1.3.0/lib/thor.rb:527:in `dispatch'
+E, [2023-10-25T23:33:45.040552 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/thor-1.3.0/lib/thor/base.rb:584:in `start'
+E, [2023-10-25T23:33:45.040564 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/bin/kitchen:11:in `block in <top (required)>'
+E, [2023-10-25T23:33:45.040593 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/lib/kitchen/errors.rb:183:in `with_friendly_errors'
+E, [2023-10-25T23:33:45.040610 #17545] ERROR -- Kitchen: /var/lib/gems/2.7.0/gems/test-kitchen-3.5.0/bin/kitchen:11:in `<top (required)>'
+E, [2023-10-25T23:33:45.040623 #17545] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `load'
+E, [2023-10-25T23:33:45.040635 #17545] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `<main>'
+E, [2023-10-25T23:33:45.040648 #17545] ERROR -- Kitchen: ----End Backtrace-----
